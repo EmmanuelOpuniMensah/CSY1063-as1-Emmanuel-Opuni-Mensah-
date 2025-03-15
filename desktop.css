@@ -17,3 +17,18 @@ nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration-color: rgb(255, 255, 255);
 }
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 15px; 
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+main {
+    
+    background-color:rgb(78, 208, 255);
+    color: white;
+    grid-area: main;
+}

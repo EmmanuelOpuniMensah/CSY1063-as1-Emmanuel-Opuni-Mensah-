@@ -91,3 +91,19 @@ body {
     justify-content: center;
 
 }
+@media only screen and (max-width: 800px) {
+    body{
+    background-color: rgb(69, 190, 255);
+    }
+    }
+
+    @media (min-width: 768px) { 
+        .mobile-only {
+            display: none;
+        }
+    }
+    @media (max-width: 800px) {
+        .desktop-only {
+            display: none;
+        }
+    }

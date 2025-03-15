@@ -1,0 +1,93 @@
+header { 
+    background-color:rgb(78, 208, 255);
+    color: white;
+    padding: 20px;
+    grid-area: header;
+  }
+  img {
+    width: 200px;  
+    height: auto; 
+}
+  
+header {
+    background-color:rgb(78, 208, 255);
+    color: rgb(244, 244, 244);
+    padding: 20px;
+    grid-area: header;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(38, 197, 255);
+    grid-area: nav; 
+   text-decoration-color: black;
+}
+
+nav ul li a { 
+    color: rgb(38, 197, 255);;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+
+h1 {
+    color: rgb(26, 25, 25);
+}
+h2 {
+    color: rgb(42, 42, 39);
+}
+
+h3 {
+    color: rgb(34, 34, 34);
+}
+
+main {
+    background-color: rgb(38, 197, 255);
+    color:rgba(233, 249, 255, 0.938);
+    grid-area: main; 
+    min-height: 100vh;
+    font-family: sans-serif;
+
+}
+
+footer{
+    background-color:  rgb(153, 255, 185);
+    color: rgb(244, 248, 251);;
+    grid-area: footer;
+    font-family: sans-serif;
+
+}
+
+body { 
+    font-family: sans-serif;
+
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer"
+    ;
+}
+
+
+.card {
+    background-color: rgba(25, 233, 32, 0.938);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    font-style: italic; 
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+   border: 1px solid rgba(123, 236, 25, 0.689);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+
+}

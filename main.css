@@ -1,14 +1,16 @@
+
 header { 
     background-color:rgb(78, 208, 255);
     color: white;
     padding: 20px;
     grid-area: header;
   }
-  img {
+  
+
+img {
     width: 200px;  
     height: auto; 
 }
-  
 header {
     background-color:rgb(78, 208, 255);
     color: rgb(244, 244, 244);
@@ -52,7 +54,7 @@ main {
 }
 
 footer{
-    background-color:  rgb(153, 255, 185);
+    background-color:  rgb(5, 43, 17);
     color: rgb(244, 248, 251);;
     grid-area: footer;
     font-family: sans-serif;
@@ -84,13 +86,14 @@ body {
 }
 .grid-container {
     display: grid;
-   border: 1px solid rgba(123, 236, 25, 0.689);
+   border: 1px solid rgba(0, 0, 0, 0.689);
     grid-template-columns: repeat(4, 1fr);
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     justify-content: center;
 
 }
+
 @media only screen and (max-width: 800px) {
     body{
     background-color: rgb(69, 190, 255);
@@ -107,3 +110,4 @@ body {
             display: none;
         }
     }
+

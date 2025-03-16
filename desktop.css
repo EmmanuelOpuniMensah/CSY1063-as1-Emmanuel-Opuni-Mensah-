@@ -8,6 +8,7 @@ header {
 header a{
     display: none;
 }
+
 nav {
     background-color: rgba(0, 0, 0, 0.784);
     grid-area: nav;
@@ -17,6 +18,7 @@ nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration-color: rgb(255, 255, 255);
 }
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -26,12 +28,25 @@ nav ul {
     text-decoration-color: rgb(255, 255, 255);
 }
 
+
 main {
     
     background-color:rgb(78, 208, 255);
     color: white;
     grid-area: main;
 }
+
+aside {
+    background-color: rgb(148, 217, 148);
+    grid-area: aside;
+}
+
+footer {
+    background-color: rgb(4, 4, 4);
+    color: white;
+    grid-area: footer;
+}
+
 body {
     display: grid;
     grid-template-columns: 20% 60% 20%;

@@ -2,19 +2,19 @@
 <html lang="en">
     <head> 
         <meta charset="UTF-8">
-        <title>Emmanuel's Contact Page</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css" media="screen and (min-width: 800px)">
+        <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
+        <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
     <body id="clicked">
         <header>
             <a href="#clicked" class="on showNav"></a>   
-            <a href="#" class="off">x</a>
-        </header>
+            <a href="#" class="off">O</a>
+    </header>
             <nav>
-    
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">projects</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="VideoDemo.html">Video Demo</a></li>
                     <li><a href="sitereport.html">Site Report</a></li>
@@ -22,13 +22,32 @@
             </nav>
             <main>
                 <h2>Contact Me</h2>
-                <p> Hello please type any quiery you have in the box and Emmanuel will get back to you 
-                    as soon as possible.
-                </p>
-                <form action="#" method="get">
-                    <input type="text" name="myInput">
-                    <input type="submit" value="submit">
-                    </form>
+        <p> Hello please type any quiery you have in the box and Emmanuel will get back to you 
+            as soon as possible.
+        </p>
+        <form action="malito:emmanlix55@gmail.com" method="post">
+            <div>
+              <label for="name">Company Name:</label>
+              <input type="text" id="name" name="user_name" required >
+            </div>
+          
+            <div>
+              <label for="mail">Company Email:</label>
+              <input type="email" id="mail" name="user_email"required>
+            </div>
+          
+            <div>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </div>
+          
+            <div class="button">
+              <button type="submit">Send your message</button>
+            </div>
+          </form>
             </main>
+            <footer>
+                <p>&copy; Emmanuel Opuni Mensah</p>
+            </footer>
     </body>
     </html>

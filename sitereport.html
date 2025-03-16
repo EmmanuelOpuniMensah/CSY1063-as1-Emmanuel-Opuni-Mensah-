@@ -4,60 +4,82 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Emmanuel's Portfolio</title>
+        <!-- Linking the main stylesheet for general styling -->
         <link rel="stylesheet" href="main.css" media="screen">
+        <!-- Linking the mobile stylesheet for screens with a max width of 800px -->
         <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
+        <!-- Linking the desktop stylesheet for screens with a min width of 800px -->
         <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
      </head>    
     <body id="clicked">
+        <!-- Header section with navigation toggle links -->
         <header>
             <a href="#clicked" class="on showNav"></a>   
             <a href="#" class="off">x</a>
         </header>
-            <nav>
-                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="VideoDemo.html">Video Demo</a></li>
-                    <li><a href="sitereport.html">Site Report</a></li>
-                </ul>
-            </nav>
+
+        <!-- Navigation bar with links to different pages -->
+        <nav>
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="VideoDemo.html">Video Demo</a></li>
+                <li><a href="sitereport.html">Site Report</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
         <main>
+            <!-- Title section -->
             <div class="title"><h1>Site Report</h1></div>
+
+            <!-- Grid container to hold different report sections -->
             <div class="grid-container">
+
+                <!-- Card for technologies used -->
                  <div class="card">
                     <h2>Technologies Used</h2>
                     <img src="tech.jpg" alt="Emmanuel's picture">
                     <p>
-                        I used a variety of technologies to build this site, including HTML and  for the front-end. 
-                        I also used Git for version control, and GitHub Pages to host the site. 
-                        I used Visual Studio Code as my code editor.
-            </div>
-            <div class="card">
-            <div> <img src="gnb.jpg" alt="Emmanuel's picture">
-                <h2>Challenges Faced</h2>
-                <p>
-                    While creating this portfolio website, one of the main challenges I faced was dealing with small mistakes
-                    , such as missing commas and incorrect syntax. These minor errors often caused my code to break,
-                     which was quite frustrating at times. I also struggled with implementing the CSS grid layout,
-                      as positioning elements correctly required a deeper understanding of how grid systems work. I struggles to keep up with time due to the fact that I 
-                      have two jobs and I am a full time student, but I managed to complete the project on time I struglled creating more branches because they were not working as they should be.
-                </p>
-                <h3>Things I enjoyed</h3>
-                <p>
+                        I used a variety of technologies to build this site, including HTML for structure and CSS for styling.
+                        I also used Git for version control and GitHub Pages for hosting the site. 
+                        Visual Studio Code was my code editor of choice.
+                    </p>
+                </div>
 
-However, I enjoyed the research process and finding solutions to problems. 
-I came across a piece of code online that helped me improve my grid structure, which I referenced appropriately.
- This allowed me to better understand how to create a more responsive and organised layout.One aspect I particularly enjoyed was working on the card background animation. Adding smooth transitions and glowing effects made my website feel more interactive and visually appealing. This experience not only improved my CSS skills but also allowed me to be more creative with my designs.
-Overall, this project has been a great learning experience, helping me strengthen my attention to detail and problem-solving skills.
-I will try and use more branches next since my branches did not function as they should have. 
-                </p>
-            </div>
+                <!-- Card for challenges faced -->
+                <div class="card">
+                    <img src="gnb.jpg" alt="Emmanuel's picture">
+                    <h2>Challenges Faced</h2>
+                    <p>
+                        While creating this portfolio website, one of the main challenges I faced was dealing with small mistakes,
+                        such as missing commas and incorrect syntax. These minor errors often caused my code to break,
+                        which was quite frustrating at times. I also struggled with implementing the CSS grid layout,
+                        as positioning elements correctly required a deeper understanding of how grid systems work.
+                        Additionally, I struggled to manage my time due to working two jobs while being a full-time student.
+                        I also faced difficulties creating more branches as they were not functioning as expected.
+                    </p>
+                    
+                    <!-- Section for things I enjoyed -->
+                    <h3>Things I Enjoyed</h3>
+                    <p>
+                        However, I enjoyed the research process and finding solutions to problems. 
+                        I came across a piece of code online that helped me improve my grid structure, which I referenced appropriately.
+                        This allowed me to better understand how to create a more responsive and organised layout.
+                        One aspect I particularly enjoyed was working on the card background animation. Adding smooth transitions and glowing effects made my website feel more interactive and visually appealing.
+                        This experience not only improved my CSS skills but also allowed me to be more creative with my designs.
+                        Overall, this project has been a great learning experience, helping me strengthen my attention to detail and problem-solving skills.
+                        I aim to use more branches in the future since my branches did not function as they should have.
+                    </p>
+                </div>
 
+            </div>
         </main>
+
+        <!-- Footer section -->
         <footer>
             <p>&copy; Emmanuel Opuni Mensah</p>
         </footer>
     </body>
-    </html>
-    
+</html>

@@ -1,60 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+
+<head>
+    <!-- Character encoding and responsive design settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emmanuel's profolio</title>
+
+    <!-- Title of the webpage -->
+    <title>Emmanuel's Portfolio</title>
+
+    <!-- Linking different CSS files for styling on various screen sizes -->
     <link rel="stylesheet" href="main.css" media="screen">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
-    </header>
-    <body id="clicked">
-        <header>
-            <a href="#clicked" class="on showNav"></a>   
-            <a href="#" class="off">x</a>
-        </header>
-            <nav>
-    
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="VideoDemo.html">Video Demo</a></li>
-                    <li><a href="sitereport.html">Site Report</a></li>
-                </ul>
-            </nav>
-        <main>
-            <div class="title"><h1>Projects</h1></div>
+</head>
 
-            <div class="grid-container">
-                <div class="card">
-                    <h2>Python Project</h2>
-                    <img src="py.jpeg" alt="Emmanuel's picture">
-                    <p>
-                        One of the projects I completed was a Python project, which helped me apply my programming knowledge in a real-world scenario. 
-                        I developed my skills in writing efficient code, debugging errors, and solving logical problems. This experience boosted my confidence in working independently.
-                    </p>
-                </div>
-                <div class="card">
-                    <h2>Team Project for Software Fundamentals</h2>
-                    <img src="2ND project.jpg" alt="Emmanuel's picture">
-                    <p>
-                        As part of my coursework, I worked on a team project for Software Fundamentals. 
-                        This experience taught me teamwork and effective documentation I also learn't the
-                         types of methodology to use when running diffrent type of businesses
-                        . 
-                    </p>
-                </div>
-               
+<body id="clicked">
+    <!-- Header section with navigation toggle links -->
+    <header>
+        <a href="#clicked" class="on showNav"></a>
+        <a href="#" class="off">x</a>
+    </header>
+
+    <!-- Navigation bar with links to different pages -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="VideoDemo.html">Video Demo</a></li>
+            <li><a href="sitereport.html">Site Report</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Section title -->
+        <div class="title">
+            <h1>Projects</h1>
+        </div>
+
+        <!-- Grid layout for displaying projects -->
+        <div class="grid-container">
+            <!-- Project 1: Python Project -->
+            <div class="card">
+                <h2>Python Project</h2>
+                <img src="py.jpeg" alt="Emmanuel's picture">
+                <p>
+                    One of the projects I completed was a Python project, which helped me apply my programming knowledge in a real-world scenario. 
+                    I developed my skills in writing efficient code, debugging errors, and solving logical problems. This experience boosted my confidence in working independently.
+                </p>
+            </div>
+
+            <!-- Project 2: Team Project for Software Fundamentals -->
+            <div class="card">
+                <h2>Team Project for Software Fundamentals</h2>
+                <img src="2ND project.jpg" alt="Emmanuel's picture">
+                <p>
+                    As part of my coursework, I worked on a team project for Software Fundamentals. 
+                    This experience taught me teamwork and effective documentation. I also learnt the
+                    types of methodology to use when running different types of businesses.
+                </p>
+            </div>
+
+            <!-- Project 3: Computer Systems -->
             <div class="card">
                 <h2>Computer Systems</h2>
                 <img src="3RDproject.jpg" alt="Emmanuel's picture">
                 <p>
                     I studied Computer Systems, which gave me an understanding of
-                     hardware-software interaction, 
+                    hardware-software interaction, 
                     including memory management, networking, and cybersecurity.
                 </p>
             </div>
+
+            <!-- Project 4: Cyberbullying Project with Amazon -->
             <div class="card">
                 <h2>Cyberbullying Project with Amazon</h2>
                 <img src="amazon.png" alt="Emmanuel's picture">
@@ -65,8 +85,13 @@
                 </p>
             </div>
         </div>
-        <footer>
-            <p>&copy; Emmanuel Opuni Mensah</p>
-         </footer>     
-    </body>
-    </html>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; Emmanuel Opuni Mensah</p>
+    </footer>
+
+</body>
+
+</html>
